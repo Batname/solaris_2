@@ -114,6 +114,7 @@ int main( )
         
         // Clear the colorbuffer
         glClearColor( 0.1f, 0.1f, 0.1f, 1.0f );
+        glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         
         shader.Use();
         glm::mat4 view = camera.GetViewMatrix();
@@ -125,9 +126,7 @@ int main( )
         model = glm::scale(model, glm::vec3(0.2f, 0.2f, 0.2f));
         glUniformMatrix4fv(glGetUniformLocation(shader.Program, "model"), 1, GL_FALSE, glm::value_ptr(model));
         ourModel.Draw(shader);
-        
-        glClear( GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
-        
+
         // Swap the screen buffers
         glfwSwapBuffers( window );
     }
