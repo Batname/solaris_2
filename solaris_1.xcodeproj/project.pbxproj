@@ -66,6 +66,7 @@
 		189EF5001DFC918500D648E6 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
 		189EF52E1DFF344D00D648E6 /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
 		189EF52F1DFF34B200D648E6 /* libassimp.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.3.3.1.dylib; path = ../../../../../usr/local/Cellar/assimp/3.3.1/lib/libassimp.3.3.1.dylib; sourceTree = "<group>"; };
+		189EF5311DFF498300D648E6 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 		18FFFD9E1DFA96E50067C7BE /* solaris_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = solaris_1; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FFFDA11DFA96E50067C7BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		18FFFDA91DFA979A0067C7BE /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -144,6 +145,7 @@
 				18FFFDB11DFBF6130067C7BE /* Shader.h */,
 				189EF5001DFC918500D648E6 /* Camera.h */,
 				189EF52E1DFF344D00D648E6 /* Mesh.h */,
+				189EF5311DFF498300D648E6 /* Model.h */,
 			);
 			path = solaris_1;
 			sourceTree = "<group>";

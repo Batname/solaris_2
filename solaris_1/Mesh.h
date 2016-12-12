@@ -46,7 +46,8 @@ public:
         GLuint diffuseNr = 1;
         GLuint specularNr = 1;
         
-        for (GLuint i = 0; textures.size(); i++) {
+        for (GLuint i = 0; i < textures.size(); i++) {
+            
             glActiveTexture(GL_TEXTURE0 + i);
             stringstream ss;
             string number;
@@ -70,7 +71,7 @@ public:
         glBindVertexArray(0);
         
         for (GLuint i = 0; i < textures.size(); i++) {
-            glActiveTexture(GL_TEXTURE + i);
+            glActiveTexture(GL_TEXTURE0 + i);
             glBindTexture(GL_TEXTURE_2D, 0);
         }
     }
